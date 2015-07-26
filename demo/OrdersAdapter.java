@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Farrux on 24.06.2015.
  */
 public class OrdersAdapter extends RecycleAdapter<Order, BottomOrderHolder>{
-    public BottomOrdersAdapter(Context context, List<Order> items) {
+    public OrdersAdapter(Context context, List<Order> items) {
         super(context, items, OrderHolder.class);
     }
 
